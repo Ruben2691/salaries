@@ -18,6 +18,7 @@ const splinter = new Manager(
 )
 
 console.log("before: ", splinter);
+console.log(new Manager() instanceof Employee)
 
 const leo = new Employee(
     "Leonardo",
@@ -52,4 +53,6 @@ splinter.addEmployee(mikey)
 splinter.addEmployee(donnie)
 splinter.addEmployee(raph)
 
-console.log("After: ", splinter)
+// console.log("After: ", splinter)
+
+module.exports = Manager

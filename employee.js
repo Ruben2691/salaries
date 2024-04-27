@@ -13,6 +13,6 @@ const leo = new Employee(
     "Ninja",
 )
 
-console.log(leo);
+// console.log(leo);
 
 module.exports = Employee;
