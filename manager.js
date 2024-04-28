@@ -8,6 +8,7 @@ class Manager extends Employee {
 
     addEmployee(employee) {
         this.employees.push(employee);
+        
     }
 }
 
